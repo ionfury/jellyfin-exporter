@@ -1,0 +1,15 @@
+version: "3"
+
+dotenv: ['.env']
+
+vars:
+  PROJECT_DIR:
+    sh: "git rev-parse --show-toplevel"
+
+includes:
+  local: .taskfiles/local.yaml
+
+tasks:
+  default:
+    silent: true
+    cmds: ["task -l"]

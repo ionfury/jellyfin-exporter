@@ -1,0 +1,40 @@
+name: On PR
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  push:
+    branches-ignore:
+      - main
+      - v*
+
+env:
+  python_version: '3.10' # Need quotes for YAML, or this is 3.1
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint
+        uses: ./.github/actions/lint
+        
+  canary:
+    name: Canary Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Canary Build
+        uses: ./.github/actions/build
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          push: false
+          latest: false

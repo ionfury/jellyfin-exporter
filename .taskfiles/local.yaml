@@ -1,0 +1,25 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Builds the docker image.
+    cmds:
+      - docker build . -t jellyfin-exporter:local
+
+  stop:
+    desc: Stops the docker image.
+    cmds:
+      - docker rm --force jellyfin-exporter || echo ""
+
+  run:
+    desc: Runs the docker image.
+    cmds:
+      - task: build
+      - task: stop
+      - cmd: | 
+          docker run --name jellyfin-exporter \
+            -e JELLYFIN_EXPORTER_PORT=8080 \
+            -e JELLYFIN_EXPORTER_URL=$JELLYFIN_EXPORTER_URL \
+            -e JELLYFIN_EXPORTER_API_KEY=$JELLYFIN_EXPORTER_API_KEY \
+            -p 8080:8080 \
+            jellyfin-exporter:local
