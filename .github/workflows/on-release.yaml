@@ -17,6 +17,8 @@ jobs:
         uses: ./.github/actions/lint
 
   release-image:
+    permissions:
+      packages: write
     runs-on: ubuntu-latest
     needs:
       - lint
