@@ -282,7 +282,7 @@ class JellyfinSessions(object):
 
     def play_state_position(self, data):
         gauge = GaugeMetricFamily(
-            "jellyfin_session_play_state_info",
+            "jellyfin_session_play_state_position",
             "Information about the play state of the jellyfin session.",
             labels=[
                 "instance",
