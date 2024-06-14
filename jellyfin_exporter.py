@@ -57,7 +57,7 @@ class JellyfinSessions(object):
             "jellyfin_session_transcode_info",
             "Info about transcoding in the jellyfin session.",
             labels=[
-                "id",
+                "session_id",
                 "user",
                 "audio_codec",
                 "video_codec",
@@ -96,7 +96,7 @@ class JellyfinSessions(object):
             "The transcoding bitrate of the jellyfin session.",
             labels=[
                 "instance",
-                "id",
+                "session_id",
                 "user",
             ],
         )
@@ -119,7 +119,7 @@ class JellyfinSessions(object):
             "The transcoding completion percentage of the jellyfin session.",
             labels=[
                 "instance",
-                "id",
+                "session_id",
                 "user",
             ],
         )
@@ -142,7 +142,7 @@ class JellyfinSessions(object):
             "The bitrate of the jellyfin session.",
             labels=[
                 "instance",
-                "id",
+                "session_id",
                 "user",
             ],
         )
@@ -171,7 +171,7 @@ class JellyfinSessions(object):
             "Information about the item currently playing on the jellyfin session.",
             labels=[
                 "instance",
-                "id",
+                "session_id",
                 "user",
                 "item_id",
                 "name",
@@ -204,7 +204,7 @@ class JellyfinSessions(object):
             "Run time of the item currently playing on the jellyfin session.",
             labels=[
                 "instance",
-                "id",
+                "session_id",
                 "user",
                 "item_id",
             ],
@@ -236,7 +236,7 @@ class JellyfinSessions(object):
         gauge = GaugeMetricFamily(
             "jellyfin_session_info",
             "Info about current jellyfin sessions.",
-            labels=["instance", "id", "user", "client", "device"],
+            labels=["instance", "session_id", "user", "client", "device"],
         )
         for session in data:
             gauge.add_metric(
@@ -257,8 +257,8 @@ class JellyfinSessions(object):
             "Information about the play state of the jellyfin session.",
             labels=[
                 "instance",
-                "id",
-                "userId",
+                "session_id",
+                "user",
                 "paused",
                 "muted",
                 "play_method",
@@ -286,8 +286,8 @@ class JellyfinSessions(object):
             "Information about the play state of the jellyfin session.",
             labels=[
                 "instance",
-                "id",
-                "userId",
+                "session_id",
+                "user",
             ],
         )
         for session in data:
@@ -334,7 +334,7 @@ class JellyfinUsers(object):
             "Info about jellyfin users.",
             labels=[
                 "instance",
-                "id",
+                "user_id",
                 "user",
                 "administrator",
                 "hidden",
@@ -369,7 +369,7 @@ class JellyfinUsers(object):
             "Number of invalid login attempts for a jellyfin user.",
             labels=[
                 "instance",
-                "id",
+                "user_id",
                 "user",
             ],
         )
@@ -392,7 +392,7 @@ class JellyfinUsers(object):
             "Number of logins attempts before a jellyfin user is locked out.",
             labels=[
                 "instance",
-                "id",
+                "user_id",
                 "user",
             ],
         )
@@ -415,7 +415,7 @@ class JellyfinUsers(object):
             "The maximum bitrate sessions from a jellyfin user are limited to.",
             labels=[
                 "instance",
-                "id",
+                "user_id",
                 "user",
             ],
         )
@@ -448,7 +448,7 @@ class JellyfinUsers(object):
             "Last login timestamp of jellyfin users.",
             labels=[
                 "instance",
-                "id",
+                "user_id",
                 "user",
             ],
         )
