@@ -57,6 +57,7 @@ class JellyfinSessions(object):
             "jellyfin_session_transcode_info",
             "Info about transcoding in the jellyfin session.",
             labels=[
+                "instance",
                 "session_id",
                 "user",
                 "audio_codec",
