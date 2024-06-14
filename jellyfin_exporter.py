@@ -3,6 +3,7 @@ import logging
 import requests
 import threading
 import time
+import traceback
 from datetime import datetime
 
 from prometheus_client import start_http_server
@@ -34,8 +35,9 @@ def request_api(action):
 
 class JellyfinSessions(object):
     def collect(self):
+        endpoint = "/sessions"
         try:
-            data = request_api("/sessions")
+            data = request_api(endpoint)
             yield self.count(data)
             yield self.info(data)
             yield self.bitrate(data)
@@ -47,7 +49,8 @@ class JellyfinSessions(object):
             yield self.transcode_bitrate(data)
             yield self.transcode_completion(data)
         except Exception as ex:
-            logging.critical(ex)
+            logging.critical(f"Error collecting {endpoint}: %s", ex)
+            logging.critical("Traceback: %s", traceback.format_exc())
 
     def transcode_info(self, data):
         gauge = GaugeMetricFamily(
@@ -74,14 +77,14 @@ class JellyfinSessions(object):
                     INSTANCE,
                     session["Id"],
                     session["UserName"],
-                    str(session["TranscodingInfo"]["AudioCodec"]),
-                    str(session["TranscodingInfo"]["VideoCodec"]),
-                    str(session["TranscodingInfo"]["Container"]),
-                    str(session["TranscodingInfo"]["IsVideoDirect"]),
-                    str(session["TranscodingInfo"]["IsAudioDirect"]),
-                    str(session["TranscodingInfo"]["Width"]),
-                    str(session["TranscodingInfo"]["Height"]),
-                    str(session["TranscodingInfo"]["AudioChannels"]),
+                    str(session["TranscodingInfo"].get("AudioCodec", "Unknown")),
+                    str(session["TranscodingInfo"].get("VideoCodec", "Unknown")),
+                    str(session["TranscodingInfo"].get("Container", "Unknown")),
+                    str(session["TranscodingInfo"].get("IsVideoDirect", "Unknown")),
+                    str(session["TranscodingInfo"].get("IsAudioDirect", "Unknown")),
+                    str(session["TranscodingInfo"].get("Width", "Unknown")),
+                    str(session["TranscodingInfo"].get("Height", "Unknown")),
+                    str(session["TranscodingInfo"].get("AudioChannels", "Unknown")),
                 ],
                 1,
             )
@@ -106,7 +109,7 @@ class JellyfinSessions(object):
                     session["Id"],
                     session["UserName"],
                 ],
-                int(session["TranscodingInfo"]["Bitrate"]),
+                int(session["TranscodingInfo"].get("Bitrate", 0)),
             )
         return gauge
 
@@ -123,16 +126,13 @@ class JellyfinSessions(object):
         for session in data:
             if "TranscodingInfo" not in session:
                 continue
-            completion = 100
-            if "CompletionPercentage" in session["TranscodingInfo"]:
-                completion = session["TranscodingInfo"]["CompletionPercentage"]
             gauge.add_metric(
                 [
                     INSTANCE,
                     session["Id"],
                     session["UserName"],
                 ],
-                float(completion),
+                float(session["TranscodingInfo"].get("CompletionPercentage", 100)),
             )
         return gauge
 
@@ -188,11 +188,11 @@ class JellyfinSessions(object):
                     INSTANCE,
                     session["Id"],
                     session["UserName"],
-                    str(session["NowPlayingItem"]["Id"]),
-                    str(session["NowPlayingItem"]["Name"]),
-                    str(session["NowPlayingItem"]["Type"]),
-                    str(session["NowPlayingItem"]["MediaType"]),
-                    str(session["NowPlayingItem"]["OfficialRating"]),
+                    str(session["NowPlayingItem"].get("Id", "Unknown")),
+                    str(session["NowPlayingItem"].get("Name", "Unknown")),
+                    str(session["NowPlayingItem"].get("Type", "Unknown")),
+                    str(session["NowPlayingItem"].get("MediaType", "Unknown")),
+                    str(session["NowPlayingItem"].get("OfficialRating", "Unknown")),
                 ],
                 1,
             )
@@ -217,9 +217,9 @@ class JellyfinSessions(object):
                     INSTANCE,
                     session["Id"],
                     session["UserName"],
-                    str(session["NowPlayingItem"]["Id"]),
+                    str(session["NowPlayingItem"].get("Id", "Unknown")),
                 ],
-                int(session["NowPlayingItem"]["RunTimeTicks"]),
+                int(session["NowPlayingItem"].get("RunTimeTicks", 0)),
             )
         return gauge
 
@@ -238,9 +238,16 @@ class JellyfinSessions(object):
             "Info about current jellyfin sessions.",
             labels=["instance", "id", "user", "client", "device"],
         )
-        for s in data:
+        for session in data:
             gauge.add_metric(
-                [INSTANCE, s["Id"], s["UserName"], s["Client"], s["DeviceName"]], 1
+                [
+                    INSTANCE,
+                    session["Id"],
+                    session["UserName"],
+                    session["Client"],
+                    session["DeviceName"],
+                ],
+                1,
             )
         return gauge
 
@@ -265,9 +272,9 @@ class JellyfinSessions(object):
                     INSTANCE,
                     session["Id"],
                     session["UserName"],
-                    str(session["PlayState"]["IsPaused"]),
-                    str(session["PlayState"]["IsMuted"]),
-                    str(session.get("PlayState").get("PlayMethod", "Unknown")),
+                    str(session["PlayState"].get("IsPaused", "Unknown")),
+                    str(session["PlayState"].get("IsMuted", "Unknown")),
+                    str(session["PlayState"].get("PlayMethod", "Unknown")),
                 ],
                 1,
             )
@@ -292,15 +299,16 @@ class JellyfinSessions(object):
                     session["Id"],
                     session["UserName"],
                 ],
-                int(session.get("PlayState").get("PositionTicks", 0)),
+                int(session["PlayState"].get("PositionTicks", 0)),
             )
         return gauge
 
 
 class JellyfinUsers(object):
     def collect(self):
+        endpoint = "/users"
         try:
-            data = request_api("/users")
+            data = request_api(endpoint)
             yield self.count(data)
             yield self.info(data)
             yield self.invalid_login_attempts(data)
@@ -308,7 +316,8 @@ class JellyfinUsers(object):
             yield self.bitrate_limit(data)
             yield self.last_login(data)
         except Exception as ex:
-            logging.critical(ex)
+            logging.critical(f"Error collecting {endpoint}: %s", ex)
+            logging.critical("Traceback: %s", traceback.format_exc())
 
     def count(self, data):
         gauge = GaugeMetricFamily(
@@ -344,11 +353,11 @@ class JellyfinUsers(object):
                     INSTANCE,
                     user["Id"],
                     user["Name"],
-                    str(user["Policy"]["IsAdministrator"]),
-                    str(user["Policy"]["IsHidden"]),
-                    str(user["Policy"]["IsDisabled"]),
-                    user["Configuration"]["SubtitleLanguagePreference"],
-                    user["Configuration"]["SubtitleMode"],
+                    str(user["Policy"].get("IsAdministrator", "Unknown")),
+                    str(user["Policy"].get("IsHidden", "Unknown")),
+                    str(user["Policy"].get("IsDisabled", "Unknown")),
+                    user["Configuration"].get("SubtitleLanguagePreference", "Unknown"),
+                    user["Configuration"].get("SubtitleMode", "Unknown"),
                 ],
                 1,
             )
@@ -373,7 +382,7 @@ class JellyfinUsers(object):
                     user["Id"],
                     user["Name"],
                 ],
-                int(user["Policy"]["InvalidLoginAttemptCount"]),
+                int(user["Policy"].get("InvalidLoginAttemptCount", 0)),
             )
         return gauge
 
@@ -396,7 +405,7 @@ class JellyfinUsers(object):
                     user["Id"],
                     user["Name"],
                 ],
-                int(user["Policy"]["LoginAttemptsBeforeLockout"]),
+                int(user["Policy"].get("LoginAttemptsBeforeLockout", 0)),
             )
         return gauge
 
@@ -419,7 +428,7 @@ class JellyfinUsers(object):
                     user["Id"],
                     user["Name"],
                 ],
-                int(user["Policy"]["RemoteClientBitrateLimit"]),
+                int(user["Policy"].get("RemoteClientBitrateLimit", 0)),
             )
         return gauge
 
@@ -460,11 +469,13 @@ class JellyfinUsers(object):
 
 class JellyfinItems(object):
     def collect(self):
+        endpoint = "/Items/Counts"
         try:
-            data = request_api("/Items/Counts")
+            data = request_api(endpoint)
             yield self.count(data)
         except Exception as ex:
-            logging.critical(ex)
+            logging.critical(f"Error collecting {endpoint}: %s", ex)
+            logging.critical("Traceback: %s", traceback.format_exc())
 
     def count(self, data):
         gauge = GaugeMetricFamily(
