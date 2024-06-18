@@ -47,28 +47,3 @@ The `jellyfin_exporter` program emits a variety of Prometheus metrics to monitor
 | JELLYFIN_EXPORTER_PORT | The port jellyfin-exporter will listen on | 8080 | ❌ |
 | JELLYFIN_EXPORTER_URL | The full URL to Jellyfin | localhost:9090 | ❌ |
 | JELLYFIN_EXPORTER_INSTANCE_NAME | A unique name for your jellyfin instance | jellyfin | ❌ |
-
-
-jellyfin_session_now_playing_info
-	media_type (video)
-	name (godzilla minus one)
-	rating (PG-13)
-	type (movie)
-	user (tom)
-
-jellyfin_session_bitrate
-	(value)
-
-jellyfin_session_now_playing_run_time
-	value
-
-jellyfin_session_play_state_info
-	paused (false)
-	play_method (transcode)
-	muted (false)
-
-jellyfin_session_transcode_bitrate
-	value)
-
-jellyfin-session_transcode_info
-	video_codec
