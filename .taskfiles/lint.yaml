@@ -1,0 +1,15 @@
+version: "3"
+
+tasks:
+  check:
+    desc: Checks linting on python files.
+    cmds:
+      - python3 -m ruff check .
+  fix:
+    desc: Fixes linting on python files.
+    cmds:
+      - python3 -m ruff check . --fix
+  format:
+    desc: Formats python files.
+    cmds:
+      - python3 -m ruff format .

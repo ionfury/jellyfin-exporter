@@ -1,0 +1,14 @@
+# HELP jellyfin_items Number of jellyfin items.
+# TYPE jellyfin_items gauge
+jellyfin_items{type="MovieCount"} 325.0
+jellyfin_items{type="SeriesCount"} 41.0
+jellyfin_items{type="EpisodeCount"} 3517.0
+jellyfin_items{type="ArtistCount"} 0.0
+jellyfin_items{type="ProgramCount"} 0.0
+jellyfin_items{type="TrailerCount"} 0.0
+jellyfin_items{type="SongCount"} 0.0
+jellyfin_items{type="AlbumCount"} 0.0
+jellyfin_items{type="MusicVideoCount"} 0.0
+jellyfin_items{type="BoxSetCount"} 56.0
+jellyfin_items{type="BookCount"} 0.0
+jellyfin_items{type="ItemCount"} 0.0

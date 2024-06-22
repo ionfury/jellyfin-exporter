@@ -1,0 +1,3849 @@
+[
+    {
+        "PlayState": {
+            "PositionTicks": 5239584980,
+            "CanSeek": true,
+            "IsPaused": false,
+            "IsMuted": true,
+            "VolumeLevel": 56,
+            "AudioStreamIndex": 1,
+            "SubtitleStreamIndex": 2,
+            "MediaSourceId": "e8f4cce6e13e5923f89a33fe75d19474",
+            "PlayMethod": "Transcode",
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [
+                "Audio",
+                "Video"
+            ],
+            "SupportedCommands": [
+                "MoveUp",
+                "MoveDown",
+                "MoveLeft",
+                "MoveRight",
+                "PageUp",
+                "PageDown",
+                "PreviousLetter",
+                "NextLetter",
+                "ToggleOsd",
+                "ToggleContextMenu",
+                "Select",
+                "Back",
+                "SendKey",
+                "SendString",
+                "GoHome",
+                "GoToSettings",
+                "VolumeUp",
+                "VolumeDown",
+                "Mute",
+                "Unmute",
+                "ToggleMute",
+                "SetVolume",
+                "SetAudioStreamIndex",
+                "SetSubtitleStreamIndex",
+                "DisplayContent",
+                "GoToSearch",
+                "DisplayMessage",
+                "SetRepeatMode",
+                "SetShuffleQueue",
+                "ChannelUp",
+                "ChannelDown",
+                "PlayMediaSource",
+                "PlayTrailers"
+            ],
+            "SupportsMediaControl": true,
+            "SupportsPersistentIdentifier": false,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [
+            "Audio",
+            "Video"
+        ],
+        "Id": "c80788bfac1e58999f565f062f12b0fd",
+        "UserId": "c370b2b891d34460831b245cf98fd858",
+        "UserName": "USER8",
+        "Client": "Jellyfin Web",
+        "LastActivityDate": "2024-06-21T15:10:08.4702522Z",
+        "LastPlaybackCheckIn": "2024-06-21T15:09:59.4670505Z",
+        "DeviceName": "Firefox",
+        "NowPlayingItem": {
+            "Name": "Episode 10: Giant Frogs/Aboveground",
+            "ServerId": "8a294b9808ea41938e0cb243318d6608",
+            "Id": "e8f4cce6e13e5923f89a33fe75d19474",
+            "DateCreated": "2024-06-14T14:26:53.0956831Z",
+            "HasSubtitles": true,
+            "Container": "mkv",
+            "PremiereDate": "2024-03-07T00:00:00.0000000Z",
+            "ExternalUrls": [
+                {
+                    "Name": "IMDb",
+                    "Url": "https://www.imdb.com/title/tt30838275"
+                },
+                {
+                    "Name": "Trakt",
+                    "Url": "https://trakt.tv/episodes/tt30838275"
+                }
+            ],
+            "Path": "/media/shows/Delicious in Dungeon/Season 1/Delicious in Dungeon - S01E10 - Giant Frogs+Aboveground WEBDL-1080p.mkv",
+            "EnableMediaSourceDisplay": true,
+            "ChannelId": null,
+            "Overview": "The crew avoid a stinging descent to the castle town, where the Red Dragon lurks. But to defeat it, they need a tight plan — and a morale-boosting meal.",
+            "Taglines": [],
+            "Genres": [
+                "Animation",
+                "Adventure",
+                "Comedy"
+            ],
+            "CommunityRating": 9,
+            "RunTimeTicks": 15771199999,
+            "ProductionYear": 2024,
+            "IndexNumber": 10,
+            "ParentIndexNumber": 1,
+            "ProviderIds": {
+                "Tvdb": "10192573",
+                "Imdb": "tt30838275"
+            },
+            "IsHD": true,
+            "IsFolder": false,
+            "ParentId": "1af07f579a08366a8df6fa29a18b9f66",
+            "Type": "Episode",
+            "Studios": [],
+            "GenreItems": [
+                {
+                    "Name": "Animation",
+                    "Id": "074229225b7254292f131f9f49f8dcd6"
+                },
+                {
+                    "Name": "Adventure",
+                    "Id": "51cec9645b896084d12b259acd05ccb1"
+                },
+                {
+                    "Name": "Comedy",
+                    "Id": "08d31605d366d63a7a924f944b4417f1"
+                }
+            ],
+            "ParentLogoItemId": "6f57a6bb6f82ab3b9083ee12892500aa",
+            "ParentBackdropItemId": "6f57a6bb6f82ab3b9083ee12892500aa",
+            "ParentBackdropImageTags": [
+                "58d5d1b23c235eb59fc18886d7c2d882"
+            ],
+            "LocalTrailerCount": 0,
+            "SeriesName": "Delicious in Dungeon",
+            "SeriesId": "6f57a6bb6f82ab3b9083ee12892500aa",
+            "SeasonId": "1af07f579a08366a8df6fa29a18b9f66",
+            "SpecialFeatureCount": 0,
+            "PrimaryImageAspectRatio": 1.7777777777777777,
+            "SeriesPrimaryImageTag": "e8ac326333b1beb377edd0b9e67e4691",
+            "SeasonName": "Season 1",
+            "MediaStreams": [
+                {
+                    "Codec": "h264",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "SDR",
+                    "VideoRangeType": "SDR",
+                    "AudioSpatialFormat": "None",
+                    "DisplayTitle": "1080p H264 SDR",
+                    "NalLengthSize": "4",
+                    "IsInterlaced": false,
+                    "IsAVC": true,
+                    "BitRate": 5470418,
+                    "BitDepth": 8,
+                    "RefFrames": 1,
+                    "IsDefault": true,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "AverageFrameRate": 23.976025,
+                    "RealFrameRate": 23.976025,
+                    "Profile": "Main",
+                    "Type": "Video",
+                    "AspectRatio": "16:9",
+                    "Index": 0,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "PixelFormat": "yuv420p",
+                    "Level": 40,
+                    "IsAnamorphic": false
+                },
+                {
+                    "Codec": "eac3",
+                    "Language": "jpn",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "DisplayTitle": "Japanese - Dolby Digital+ - 5.1 - Default",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "ChannelLayout": "5.1",
+                    "BitRate": 640000,
+                    "Channels": 6,
+                    "SampleRate": 48000,
+                    "IsDefault": true,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Type": "Audio",
+                    "Index": 1,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "Title": "English",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "English - Default - Forced - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": true,
+                    "IsForced": true,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 2,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "Title": "English (SDH)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "English (SDH) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 3,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "Title": "English (dub)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "English (dub) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 4,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "jpn",
+                    "TimeBase": "1/1000",
+                    "Title": "Japanese (SDH)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Japanese (SDH) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 5,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "ara",
+                    "TimeBase": "1/1000",
+                    "Title": "Arabic",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Arabic - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 6,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "cze",
+                    "TimeBase": "1/1000",
+                    "Title": "Czech",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Czech - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 7,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "dan",
+                    "TimeBase": "1/1000",
+                    "Title": "Danish",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Danish - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 8,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "ger",
+                    "TimeBase": "1/1000",
+                    "Title": "German",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "German - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 9,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "gre",
+                    "TimeBase": "1/1000",
+                    "Title": "Greek",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Greek - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 10,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "spa",
+                    "TimeBase": "1/1000",
+                    "Title": "Spanish (Latin America)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Spanish (Latin America) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 11,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "spa",
+                    "TimeBase": "1/1000",
+                    "Title": "Spanish (Spain)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Spanish (Spain) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 12,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "fin",
+                    "TimeBase": "1/1000",
+                    "Title": "Finnish",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Finnish - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 13,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "fil",
+                    "TimeBase": "1/1000",
+                    "Title": "Filipino",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Filipino - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 14,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "fre",
+                    "TimeBase": "1/1000",
+                    "Title": "French",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "French - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 15,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "heb",
+                    "TimeBase": "1/1000",
+                    "Title": "Hebrew",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Hebrew - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 16,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "hin",
+                    "TimeBase": "1/1000",
+                    "Title": "Hindi",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Hindi - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 17,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "hrv",
+                    "TimeBase": "1/1000",
+                    "Title": "Croatian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Croatian - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 18,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "hun",
+                    "TimeBase": "1/1000",
+                    "Title": "Hungarian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Hungarian - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 19,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "ind",
+                    "TimeBase": "1/1000",
+                    "Title": "Indonesian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Indonesian - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 20,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "ita",
+                    "TimeBase": "1/1000",
+                    "Title": "Italian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Italian - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 21,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "kor",
+                    "TimeBase": "1/1000",
+                    "Title": "Korean",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Korean - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 22,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "may",
+                    "TimeBase": "1/1000",
+                    "Title": "Malay",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Malay - May - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 23,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "nob",
+                    "TimeBase": "1/1000",
+                    "Title": "Norwegian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Norwegian - Norwegian Bokmål - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 24,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "dut",
+                    "TimeBase": "1/1000",
+                    "Title": "Dutch",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Dutch - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 25,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "pol",
+                    "TimeBase": "1/1000",
+                    "Title": "Polish",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Polish - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 26,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "por",
+                    "TimeBase": "1/1000",
+                    "Title": "Portuguese (Portugal)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Portuguese (Portugal) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 27,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "por",
+                    "TimeBase": "1/1000",
+                    "Title": "Portuguese (Brazil)",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Portuguese (Brazil) - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 28,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "rum",
+                    "TimeBase": "1/1000",
+                    "Title": "Romanian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Romanian - Rum - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 29,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "swe",
+                    "TimeBase": "1/1000",
+                    "Title": "Swedish",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Swedish - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 30,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "tha",
+                    "TimeBase": "1/1000",
+                    "Title": "Thai",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Thai - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 31,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "tur",
+                    "TimeBase": "1/1000",
+                    "Title": "Turkish",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Turkish - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 32,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "ukr",
+                    "TimeBase": "1/1000",
+                    "Title": "Ukrainian",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Ukrainian - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 33,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "vie",
+                    "TimeBase": "1/1000",
+                    "Title": "Vietnamese",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Vietnamese - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 34,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "chi",
+                    "TimeBase": "1/1000",
+                    "Title": "Simplified Chinese",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Simplified Chinese - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 35,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                },
+                {
+                    "Codec": "subrip",
+                    "Language": "chi",
+                    "TimeBase": "1/1000",
+                    "Title": "Traditional Chinese",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Traditional Chinese - SUBRIP",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 0,
+                    "Width": 0,
+                    "Type": "Subtitle",
+                    "Index": 36,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": true,
+                    "SupportsExternalStream": true,
+                    "Level": 0
+                }
+            ],
+            "VideoType": "VideoFile",
+            "ImageTags": {
+                "Primary": "1cada6fc8587e84cab8e74b0ee5209f0"
+            },
+            "BackdropImageTags": [],
+            "ParentLogoImageTag": "4df242097d4852c36c2a98a5d8d031cd",
+            "ImageBlurHashes": {
+                "Primary": {
+                    "1cada6fc8587e84cab8e74b0ee5209f0": "W9B3NPIp9un40Ltl~UWBxtIp0Ms:SwNd-n9u0N^i-mogr?I;ENxY",
+                    "e8ac326333b1beb377edd0b9e67e4691": "d9B3+=yYBq-;HqtRb^xCDPR4ISR4xaRjXSRk5RS$xuyD"
+                },
+                "Logo": {
+                    "4df242097d4852c36c2a98a5d8d031cd": "OpNAuBM{RjWBayWBof-;j[oft7t7fQj[~qRjRjWBayj[j["
+                },
+                "Thumb": {
+                    "6b52d5e6640f42b3ec3845684c8d97f9": "WMGt$p=_%N9b0h%N^$s7R.ItD+og$lM{x]xt-:og%3R-xt%0ofX9"
+                },
+                "Backdrop": {
+                    "58d5d1b23c235eb59fc18886d7c2d882": "WDCP36?G0#NKIAVrIrxtxaIoIoM}9bNHxtxZNbM|}?s:EgWVw{xW"
+                }
+            },
+            "SeriesStudio": "AT-X",
+            "ParentThumbItemId": "6f57a6bb6f82ab3b9083ee12892500aa",
+            "ParentThumbImageTag": "6b52d5e6640f42b3ec3845684c8d97f9",
+            "Chapters": [],
+            "Trickplay": {},
+            "LocationType": "FileSystem",
+            "MediaType": "Video",
+            "Width": 1920,
+            "Height": 1080
+        },
+        "DeviceId": "TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTAuMTU7IHJ2OjEyNC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEyNC4wfDE3MTI0MTQ3NDM1Mzk1",
+        "ApplicationVersion": "10.9.6",
+        "TranscodingInfo": {
+            "AudioCodec": "aac",
+            "VideoCodec": "h264",
+            "Container": "mp4",
+            "IsVideoDirect": false,
+            "IsAudioDirect": false,
+            "Bitrate": 4872000,
+            "Width": 1920,
+            "Height": 1080,
+            "AudioChannels": 2,
+            "TranscodeReasons": [
+                "ContainerBitrateExceedsLimit"
+            ]
+        },
+        "IsActive": true,
+        "SupportsMediaControl": true,
+        "SupportsRemoteControl": true,
+        "NowPlayingQueue": [
+            {
+                "Id": "a2b57239f0f276438d12194a31c03011",
+                "PlaylistItemId": "playlistItem0"
+            },
+            {
+                "Id": "47ebf0d9238115111c15056f65ff2233",
+                "PlaylistItemId": "playlistItem1"
+            },
+            {
+                "Id": "9b7edd3702798bcfac6af0d89c9ec7fd",
+                "PlaylistItemId": "playlistItem2"
+            },
+            {
+                "Id": "7b13d7b3b60d46d2e0a742f90a265082",
+                "PlaylistItemId": "playlistItem3"
+            },
+            {
+                "Id": "dff3675aead164b9978b7770f8bafaaf",
+                "PlaylistItemId": "playlistItem4"
+            },
+            {
+                "Id": "50ff081943a7920a6793fd8c231b86ab",
+                "PlaylistItemId": "playlistItem5"
+            },
+            {
+                "Id": "d5e214dfa0e944f86084d158574f3af6",
+                "PlaylistItemId": "playlistItem6"
+            },
+            {
+                "Id": "edbb5722a3e2a1a6b4d810007f0dc79d",
+                "PlaylistItemId": "playlistItem7"
+            },
+            {
+                "Id": "a6facbbd00473fdb71a2ed48e79d3c0d",
+                "PlaylistItemId": "playlistItem8"
+            },
+            {
+                "Id": "e8f4cce6e13e5923f89a33fe75d19474",
+                "PlaylistItemId": "playlistItem9"
+            },
+            {
+                "Id": "39e009ee97f3bd04b7e6334dc1da8a44",
+                "PlaylistItemId": "playlistItem10"
+            },
+            {
+                "Id": "458e390f63d8a581c0534086d2618fb6",
+                "PlaylistItemId": "playlistItem11"
+            },
+            {
+                "Id": "d2002b5e708ebc04288fa59a30e4679a",
+                "PlaylistItemId": "playlistItem12"
+            },
+            {
+                "Id": "d76f2118d6cc6fba342b4342bbdb9f95",
+                "PlaylistItemId": "playlistItem13"
+            },
+            {
+                "Id": "e108fbf50fb82020f4300e235cff8693",
+                "PlaylistItemId": "playlistItem14"
+            },
+            {
+                "Id": "90bb4f32c650ba550939948f68b49cf8",
+                "PlaylistItemId": "playlistItem15"
+            },
+            {
+                "Id": "9fb7526e8dbc59881f8b7514af282ba5",
+                "PlaylistItemId": "playlistItem16"
+            },
+            {
+                "Id": "7356b39751a20fe271b721ed634e63f6",
+                "PlaylistItemId": "playlistItem17"
+            },
+            {
+                "Id": "3786a1ef1dc43b1a31e3a7cd766bd25c",
+                "PlaylistItemId": "playlistItem18"
+            },
+            {
+                "Id": "82528713607d3d7b512533815958280e",
+                "PlaylistItemId": "playlistItem19"
+            },
+            {
+                "Id": "d3d4c7bb7ae3eca7982d9397da164cc0",
+                "PlaylistItemId": "playlistItem20"
+            },
+            {
+                "Id": "41c185df6509e97943f48a921480904f",
+                "PlaylistItemId": "playlistItem21"
+            },
+            {
+                "Id": "af86096810c38865fa137970e41af09a",
+                "PlaylistItemId": "playlistItem22"
+            },
+            {
+                "Id": "a605f5c9d38a7aa5717ad95ce7cdfd06",
+                "PlaylistItemId": "playlistItem23"
+            }
+        ],
+        "HasCustomDeviceName": false,
+        "PlaylistItemId": "playlistItem9",
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": [
+            "MoveUp",
+            "MoveDown",
+            "MoveLeft",
+            "MoveRight",
+            "PageUp",
+            "PageDown",
+            "PreviousLetter",
+            "NextLetter",
+            "ToggleOsd",
+            "ToggleContextMenu",
+            "Select",
+            "Back",
+            "SendKey",
+            "SendString",
+            "GoHome",
+            "GoToSettings",
+            "VolumeUp",
+            "VolumeDown",
+            "Mute",
+            "Unmute",
+            "ToggleMute",
+            "SetVolume",
+            "SetAudioStreamIndex",
+            "SetSubtitleStreamIndex",
+            "DisplayContent",
+            "GoToSearch",
+            "DisplayMessage",
+            "SetRepeatMode",
+            "SetShuffleQueue",
+            "ChannelUp",
+            "ChannelDown",
+            "PlayMediaSource",
+            "PlayTrailers"
+        ]
+    },
+    {
+        "PlayState": {
+            "PositionTicks": 24211111450,
+            "CanSeek": true,
+            "IsPaused": true,
+            "IsMuted": false,
+            "VolumeLevel": 100,
+            "AudioStreamIndex": 1,
+            "MediaSourceId": "3821e37d17711278b0e9633539023dd0",
+            "PlayMethod": "Transcode",
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [
+                "Audio",
+                "Video"
+            ],
+            "SupportedCommands": [
+                "MoveUp",
+                "MoveDown",
+                "MoveLeft",
+                "MoveRight",
+                "PageUp",
+                "PageDown",
+                "PreviousLetter",
+                "NextLetter",
+                "ToggleOsd",
+                "ToggleContextMenu",
+                "Select",
+                "Back",
+                "SendKey",
+                "SendString",
+                "GoHome",
+                "GoToSettings",
+                "VolumeUp",
+                "VolumeDown",
+                "Mute",
+                "Unmute",
+                "ToggleMute",
+                "SetVolume",
+                "SetAudioStreamIndex",
+                "SetSubtitleStreamIndex",
+                "DisplayContent",
+                "GoToSearch",
+                "DisplayMessage",
+                "SetRepeatMode",
+                "SetShuffleQueue",
+                "ChannelUp",
+                "ChannelDown",
+                "PlayMediaSource",
+                "PlayTrailers"
+            ],
+            "SupportsMediaControl": true,
+            "SupportsPersistentIdentifier": false,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [
+            "Audio",
+            "Video"
+        ],
+        "Id": "b7c62e795410cd4f9428e1f39f122acc",
+        "UserId": "c370b2b891d34460831b245cf98fd858",
+        "UserName": "USER8",
+        "Client": "Jellyfin Web",
+        "LastActivityDate": "2024-06-21T15:10:02.2478585Z",
+        "LastPlaybackCheckIn": "2024-06-21T15:10:02.2478586Z",
+        "LastPausedDate": "2024-06-21T14:49:16.9056466Z",
+        "DeviceName": "Firefox",
+        "NowPlayingItem": {
+            "Name": "Puss in Boots: The Last Wish",
+            "OriginalTitle": "Puss in Boots: The Last Wish",
+            "ServerId": "8a294b9808ea41938e0cb243318d6608",
+            "Id": "3821e37d17711278b0e9633539023dd0",
+            "DateCreated": "2024-06-19T05:47:54.9601935Z",
+            "HasSubtitles": true,
+            "Container": "mkv",
+            "PremiereDate": "2022-12-07T00:00:00.0000000Z",
+            "ExternalUrls": [
+                {
+                    "Name": "IMDb",
+                    "Url": "https://www.imdb.com/title/tt3915174"
+                },
+                {
+                    "Name": "TheMovieDb",
+                    "Url": "https://www.themoviedb.org/movie/315162"
+                },
+                {
+                    "Name": "TheMovieDb",
+                    "Url": "https://www.themoviedb.org/collection/94602"
+                },
+                {
+                    "Name": "Trakt",
+                    "Url": "https://trakt.tv/movies/tt3915174"
+                }
+            ],
+            "Path": "/media/movies/Puss in Boots The Last Wish (2022)/Puss in Boots The Last Wish (2022) [imdbid-tt3915174] - [Bluray-1080p][AAC 7.1][x265]-Tigole.mkv",
+            "EnableMediaSourceDisplay": true,
+            "OfficialRating": "PG",
+            "ChannelId": null,
+            "Overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+            "Taglines": [
+                "Live each adventure like it's your last."
+            ],
+            "Genres": [
+                "Animation",
+                "Adventure",
+                "Fantasy",
+                "Comedy",
+                "Family"
+            ],
+            "CommunityRating": 8.2,
+            "RunTimeTicks": 61412670000,
+            "ProductionYear": 2022,
+            "ProviderIds": {
+                "Imdb": "tt3915174",
+                "Tmdb": "315162",
+                "TmdbCollection": "94602"
+            },
+            "IsHD": true,
+            "IsFolder": false,
+            "ParentId": "ba9c5cad4ccd875366bf54fd50e04928",
+            "Type": "Movie",
+            "Studios": [
+                {
+                    "Name": "DreamWorks Animation",
+                    "Id": "e06730e67f5a2e6712cb6789f424a16d"
+                }
+            ],
+            "GenreItems": [
+                {
+                    "Name": "Animation",
+                    "Id": "074229225b7254292f131f9f49f8dcd6"
+                },
+                {
+                    "Name": "Adventure",
+                    "Id": "51cec9645b896084d12b259acd05ccb1"
+                },
+                {
+                    "Name": "Fantasy",
+                    "Id": "a30dcc65be22eb3c21c03f7c1c7a57d1"
+                },
+                {
+                    "Name": "Comedy",
+                    "Id": "08d31605d366d63a7a924f944b4417f1"
+                },
+                {
+                    "Name": "Family",
+                    "Id": "ccbd8d9008aab2b5e749e1cc4bc458a4"
+                }
+            ],
+            "LocalTrailerCount": 0,
+            "SpecialFeatureCount": 0,
+            "PrimaryImageAspectRatio": 0.6666666666666666,
+            "MediaStreams": [
+                {
+                    "Codec": "hevc",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "SDR",
+                    "VideoRangeType": "SDR",
+                    "AudioSpatialFormat": "None",
+                    "DisplayTitle": "1080p HEVC SDR",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "BitRate": 7123395,
+                    "BitDepth": 10,
+                    "RefFrames": 1,
+                    "IsDefault": true,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 804,
+                    "Width": 1920,
+                    "AverageFrameRate": 23.976025,
+                    "RealFrameRate": 23.976025,
+                    "Profile": "Main 10",
+                    "Type": "Video",
+                    "AspectRatio": "2.40:1",
+                    "Index": 0,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "PixelFormat": "yuv420p10le",
+                    "Level": 120,
+                    "IsAnamorphic": false
+                },
+                {
+                    "Codec": "aac",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "DisplayTitle": "English - AAC - 7.1 - Default",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "ChannelLayout": "7.1",
+                    "BitRate": 643284,
+                    "Channels": 8,
+                    "SampleRate": 48000,
+                    "IsDefault": true,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Profile": "LC",
+                    "Type": "Audio",
+                    "Index": 1,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "aac",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "Title": "Commentary",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "DisplayTitle": "Commentary - English - AAC - Stereo",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "ChannelLayout": "stereo",
+                    "BitRate": 65793,
+                    "Channels": 2,
+                    "SampleRate": 48000,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Profile": "HE-AAC",
+                    "Type": "Audio",
+                    "Index": 2,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "English - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 3,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "eng",
+                    "TimeBase": "1/1000",
+                    "Title": "Commentary",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Commentary - English - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 4,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "dut",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Dut - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 5,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "fre",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Fre - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 6,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "ger",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Ger - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 7,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "ger",
+                    "TimeBase": "1/1000",
+                    "Title": "Forced",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Forced - Ger - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 8,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                },
+                {
+                    "Codec": "DVDSUB",
+                    "Language": "ita",
+                    "TimeBase": "1/1000",
+                    "VideoRange": "Unknown",
+                    "VideoRangeType": "Unknown",
+                    "AudioSpatialFormat": "None",
+                    "LocalizedUndefined": "Undefined",
+                    "LocalizedDefault": "Default",
+                    "LocalizedForced": "Forced",
+                    "LocalizedExternal": "External",
+                    "LocalizedHearingImpaired": "Hearing Impaired",
+                    "DisplayTitle": "Italian - DVDSUB",
+                    "IsInterlaced": false,
+                    "IsAVC": false,
+                    "IsDefault": false,
+                    "IsForced": false,
+                    "IsHearingImpaired": false,
+                    "Height": 1080,
+                    "Width": 1920,
+                    "Type": "Subtitle",
+                    "Index": 9,
+                    "IsExternal": false,
+                    "IsTextSubtitleStream": false,
+                    "SupportsExternalStream": false,
+                    "Level": 0
+                }
+            ],
+            "VideoType": "VideoFile",
+            "ImageTags": {
+                "Primary": "dfffb4a5dcd481e5a67fdab6ecce90fd",
+                "Logo": "9882454675596a1e016eb30072f6be7a",
+                "Thumb": "467b18ec0cdc424b18063cebef1990fd"
+            },
+            "BackdropImageTags": [
+                "615895829c1a1c11d62b67fef8bff7b9"
+            ],
+            "ImageBlurHashes": {
+                "Backdrop": {
+                    "615895829c1a1c11d62b67fef8bff7b9": "WlGa|B0kxv%MV[t7?GE3WqxtNHj]ocM|xrkCNHt6xrNHt6kARkoy"
+                },
+                "Primary": {
+                    "dfffb4a5dcd481e5a67fdab6ecce90fd": "dREB]F0jtRtQ%2E5xta~57xV$zaeadjXjEV@V[s.M|Na"
+                },
+                "Logo": {
+                    "9882454675596a1e016eb30072f6be7a": "HQIhKFV?IT%LE2RpIUxVR.rl%L-:obs:M|%NxtRk"
+                },
+                "Thumb": {
+                    "467b18ec0cdc424b18063cebef1990fd": "WlGa|B0kxv%MWCt7?GE3bHxtNHj[obM|xskCNHt6xsNHt5j?Rkt7"
+                }
+            },
+            "Chapters": [
+                {
+                    "StartPositionTicks": 0,
+                    "Name": "Chapter 01",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_0.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:42.7428927Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 5224800000,
+                    "Name": "Chapter 02",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_5224800000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:43.2468892Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 7579240000,
+                    "Name": "Chapter 03",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_7579240000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:44.1948827Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 9930750000,
+                    "Name": "Chapter 04",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_9930750000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:44.9308776Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 12801540000,
+                    "Name": "Chapter 05",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_12801540000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:45.9268707Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 17367770000,
+                    "Name": "Chapter 06",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_17367770000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:47.9828566Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 19621270000,
+                    "Name": "Chapter 07",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_19621270000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:48.7028516Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 22350240000,
+                    "Name": "Chapter 08",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_22350240000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:49.370847Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 24221700000,
+                    "Name": "Chapter 09",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_24221700000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:49.8748435Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 26993220000,
+                    "Name": "Chapter 10",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_26993220000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:50.9308362Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 30214350000,
+                    "Name": "Chapter 11",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_30214350000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:51.6148315Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 33804190000,
+                    "Name": "Chapter 12",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_33804190000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:52.126828Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 37166300000,
+                    "Name": "Chapter 13",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_37166300000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:53.138821Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 39250460000,
+                    "Name": "Chapter 14",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_39250460000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:53.5828179Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 41519390000,
+                    "Name": "Chapter 15",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_41519390000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:54.146814Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 44046920000,
+                    "Name": "Chapter 16",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_44046920000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:54.6948103Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 47265550000,
+                    "Name": "Chapter 17",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_47265550000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:55.5908041Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 50047500000,
+                    "Name": "Chapter 18",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_50047500000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:56.1108005Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 52522470000,
+                    "Name": "Chapter 19",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_52522470000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:56.906795Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                },
+                {
+                    "StartPositionTicks": 56235760000,
+                    "Name": "Chapter 20",
+                    "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_56235760000.jpg",
+                    "ImageDateModified": "2024-06-19T06:00:57.3787918Z",
+                    "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                }
+            ],
+            "Trickplay": {},
+            "LocationType": "FileSystem",
+            "MediaType": "Video",
+            "Width": 1920,
+            "Height": 804
+        },
+        "DeviceId": "TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTIyLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTIyLjB8MTcwNzMzNDE2MTI4Mg11",
+        "ApplicationVersion": "10.9.6",
+        "TranscodingInfo": {
+            "AudioCodec": "aac",
+            "VideoCodec": "h264",
+            "Container": "mp4",
+            "IsVideoDirect": false,
+            "IsAudioDirect": false,
+            "Bitrate": 4872000,
+            "Width": 1920,
+            "Height": 804,
+            "AudioChannels": 2,
+            "TranscodeReasons": [
+                "ContainerBitrateExceedsLimit"
+            ]
+        },
+        "IsActive": true,
+        "SupportsMediaControl": true,
+        "SupportsRemoteControl": true,
+        "NowPlayingQueue": [
+            {
+                "Id": "3821e37d17711278b0e9633539023dd0",
+                "PlaylistItemId": "playlistItem0"
+            }
+        ],
+        "NowPlayingQueueFullItems": [
+            {
+                "Name": "Puss in Boots: The Last Wish",
+                "OriginalTitle": "Puss in Boots: The Last Wish",
+                "ServerId": "8a294b9808ea41938e0cb243318d6608",
+                "Id": "3821e37d17711278b0e9633539023dd0",
+                "Etag": "234903b1e50dd5a62e14bf7bb3e181af",
+                "DateCreated": "2024-06-19T05:47:54.9601935Z",
+                "CanDelete": true,
+                "CanDownload": true,
+                "HasSubtitles": true,
+                "Container": "mkv",
+                "SortName": "puss in boots: last wish",
+                "PremiereDate": "2022-12-07T00:00:00.0000000Z",
+                "ExternalUrls": [
+                    {
+                        "Name": "IMDb",
+                        "Url": "https://www.imdb.com/title/tt3915174"
+                    },
+                    {
+                        "Name": "TheMovieDb",
+                        "Url": "https://www.themoviedb.org/movie/315162"
+                    },
+                    {
+                        "Name": "TheMovieDb",
+                        "Url": "https://www.themoviedb.org/collection/94602"
+                    },
+                    {
+                        "Name": "Trakt",
+                        "Url": "https://trakt.tv/movies/tt3915174"
+                    }
+                ],
+                "MediaSources": [
+                    {
+                        "Protocol": "File",
+                        "Id": "3821e37d17711278b0e9633539023dd0",
+                        "Path": "/media/movies/Puss in Boots The Last Wish (2022)/Puss in Boots The Last Wish (2022) [imdbid-tt3915174] - [Bluray-1080p][AAC 7.1][x265]-Tigole.mkv",
+                        "Type": "Default",
+                        "Container": "mkv",
+                        "Size": 5468334430,
+                        "Name": "Puss in Boots The Last Wish (2022) [imdbid-tt3915174] - [Bluray-1080p][AAC 7.1][x265]-Tigole",
+                        "IsRemote": false,
+                        "ETag": "6e1bbcff1f77306f6563c9578df1a62c",
+                        "RunTimeTicks": 61412670000,
+                        "ReadAtNativeFramerate": false,
+                        "IgnoreDts": false,
+                        "IgnoreIndex": false,
+                        "GenPtsInput": false,
+                        "SupportsTranscoding": true,
+                        "SupportsDirectStream": true,
+                        "SupportsDirectPlay": true,
+                        "IsInfiniteStream": false,
+                        "RequiresOpening": false,
+                        "RequiresClosing": false,
+                        "RequiresLooping": false,
+                        "SupportsProbing": true,
+                        "VideoType": "VideoFile",
+                        "MediaStreams": [
+                            {
+                                "Codec": "hevc",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "SDR",
+                                "VideoRangeType": "SDR",
+                                "AudioSpatialFormat": "None",
+                                "DisplayTitle": "1080p HEVC SDR",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "BitRate": 7123395,
+                                "BitDepth": 10,
+                                "RefFrames": 1,
+                                "IsDefault": true,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 804,
+                                "Width": 1920,
+                                "AverageFrameRate": 23.976025,
+                                "RealFrameRate": 23.976025,
+                                "Profile": "Main 10",
+                                "Type": "Video",
+                                "AspectRatio": "2.40:1",
+                                "Index": 0,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "PixelFormat": "yuv420p10le",
+                                "Level": 120,
+                                "IsAnamorphic": false
+                            },
+                            {
+                                "Codec": "aac",
+                                "Language": "eng",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "DisplayTitle": "English - AAC - 7.1 - Default",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "ChannelLayout": "7.1",
+                                "BitRate": 643284,
+                                "Channels": 8,
+                                "SampleRate": 48000,
+                                "IsDefault": true,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Profile": "LC",
+                                "Type": "Audio",
+                                "Index": 1,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "aac",
+                                "Language": "eng",
+                                "TimeBase": "1/1000",
+                                "Title": "Commentary",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "DisplayTitle": "Commentary - English - AAC - Stereo",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "ChannelLayout": "stereo",
+                                "BitRate": 65793,
+                                "Channels": 2,
+                                "SampleRate": 48000,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Profile": "HE-AAC",
+                                "Type": "Audio",
+                                "Index": 2,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "eng",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "English - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 3,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "eng",
+                                "TimeBase": "1/1000",
+                                "Title": "Commentary",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Commentary - English - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 4,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "dut",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Dut - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 5,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "fre",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Fre - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 6,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "ger",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Ger - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 7,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "ger",
+                                "TimeBase": "1/1000",
+                                "Title": "Forced",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Forced - Ger - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 8,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            },
+                            {
+                                "Codec": "DVDSUB",
+                                "Language": "ita",
+                                "TimeBase": "1/1000",
+                                "VideoRange": "Unknown",
+                                "VideoRangeType": "Unknown",
+                                "AudioSpatialFormat": "None",
+                                "LocalizedUndefined": "Undefined",
+                                "LocalizedDefault": "Default",
+                                "LocalizedForced": "Forced",
+                                "LocalizedExternal": "External",
+                                "LocalizedHearingImpaired": "Hearing Impaired",
+                                "DisplayTitle": "Italian - DVDSUB",
+                                "IsInterlaced": false,
+                                "IsAVC": false,
+                                "IsDefault": false,
+                                "IsForced": false,
+                                "IsHearingImpaired": false,
+                                "Height": 1080,
+                                "Width": 1920,
+                                "Type": "Subtitle",
+                                "Index": 9,
+                                "IsExternal": false,
+                                "IsTextSubtitleStream": false,
+                                "SupportsExternalStream": false,
+                                "Level": 0
+                            }
+                        ],
+                        "MediaAttachments": [],
+                        "Formats": [],
+                        "Bitrate": 7832472,
+                        "RequiredHttpHeaders": {},
+                        "TranscodingSubProtocol": "http"
+                    }
+                ],
+                "ProductionLocations": [
+                    "United States of America"
+                ],
+                "Path": "/media/movies/Puss in Boots The Last Wish (2022)/Puss in Boots The Last Wish (2022) [imdbid-tt3915174] - [Bluray-1080p][AAC 7.1][x265]-Tigole.mkv",
+                "EnableMediaSourceDisplay": true,
+                "OfficialRating": "PG",
+                "ChannelId": null,
+                "Overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+                "Taglines": [
+                    "Live each adventure like it's your last."
+                ],
+                "Genres": [
+                    "Animation",
+                    "Adventure",
+                    "Fantasy",
+                    "Comedy",
+                    "Family"
+                ],
+                "CommunityRating": 8.2,
+                "RunTimeTicks": 61412670000,
+                "ProductionYear": 2022,
+                "RemoteTrailers": [
+                    {
+                        "Url": "https://www.youtube.com/watch?v=UWAw5NYIYjQ",
+                        "Name": "We Love You Perrito"
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=J5VkH7FboJs",
+                        "Name": "KAROL G - \"La Vida Es Una\" (Official Teaser)"
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=x0im6UoH-JQ",
+                        "Name": "World Cup: Weston McKennie & Puss In Boots"
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=GNZLedgN5sw",
+                        "Name": "How to Order Concessions \"Just Right\""
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=tHb7WlgyaUc",
+                        "Name": "Official Trailer 3"
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=RqrXhwS33yc",
+                        "Name": "Official Trailer 2"
+                    },
+                    {
+                        "Url": "https://www.youtube.com/watch?v=xgZLXyqbYOc",
+                        "Name": "Official Trailer"
+                    }
+                ],
+                "ProviderIds": {
+                    "Imdb": "tt3915174",
+                    "Tmdb": "315162",
+                    "TmdbCollection": "94602"
+                },
+                "IsHD": true,
+                "IsFolder": false,
+                "ParentId": "ba9c5cad4ccd875366bf54fd50e04928",
+                "Type": "Movie",
+                "People": [
+                    {
+                        "Name": "Antonio Banderas",
+                        "Id": "0be4477aca11f1fd0e29113f9fef194e",
+                        "Role": "Puss in Boots (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "67bcd389eeeca12d911b7c12b50d44ed",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "67bcd389eeeca12d911b7c12b50d44ed": "dRE_mx^k0fE19FRixuofAbNHwvs.E1R*xtofayaes:xa"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Salma Hayek Pinault",
+                        "Id": "710f7c662fc9ee296ee38d245e87c865",
+                        "Role": "Kitty Softpaws (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "b5120deb46e51c38e8b4253eddc46e7e",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "b5120deb46e51c38e8b4253eddc46e7e": "dzHnjYt3J.t7~Vt8tSt7%hof%Lof%goct7ofxukDoJoL"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Harvey Guillén",
+                        "Id": "c0491bb62ed00f9366dcf7da5c5107f1",
+                        "Role": "Perrito (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "2131e95ecc8dae2ac20199b6bcea531a",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "2131e95ecc8dae2ac20199b6bcea531a": "dECYt3v|0fo#;^-oXTIU5Rt6-An+OsM{xC%2i^WXxuxZ"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Wagner Moura",
+                        "Id": "a3615eb265a4f03d3bf6562ad90bb1fe",
+                        "Role": "Wolf (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "c81ccf84e7d51a9ded3d5399debe0b13",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "c81ccf84e7d51a9ded3d5399debe0b13": "djJ@%nIUX:%M~qt7x]ozI?%M$fof.8R*of%2%gbHo0t7"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Florence Pugh",
+                        "Id": "1922527064ffb18e2c52303f45af158d",
+                        "Role": "Goldilocks (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "4a6269f310faa61eac4a403d0523d2db",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "4a6269f310faa61eac4a403d0523d2db": "dWP$H__2.m^+?wt7t7j].St8Vsof?vj]xuxu%MRjRjjs"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Olivia Colman",
+                        "Id": "5ee624db5f9f1e5d38fdb3bb013931b4",
+                        "Role": "Mama Bear (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "31c44461262c0e8074d5b371b49fe4ec",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "31c44461262c0e8074d5b371b49fe4ec": "dcIE60%258Nc02WBR+NGOXWC-Ut6tQofxGoL9aR*kBoK"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Ray Winstone",
+                        "Id": "498d73a762c4e91697f8c9099e737919",
+                        "Role": "Papa Bear (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "8ad23f16540bcc7dbbbc82e9dc760e79",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "8ad23f16540bcc7dbbbc82e9dc760e79": "dKHwy5^,Kj%NVrxW4.IAPVbws-bcI.NaWCRi0eIUiwRj"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Samson Kayo",
+                        "Id": "6df20c0143472edafc0bcdd325cd1971",
+                        "Role": "Baby Bear (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "a5fa2220ff8b85dd5bf3328ca4330f52",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "a5fa2220ff8b85dd5bf3328ca4330f52": "dLHUCEI;D+xZF^RP.mxu%gt7rXIU9GV@%1o}kqozoyM{"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "John Mulaney",
+                        "Id": "09cc23e31de522c64cd55aa5abd1a274",
+                        "Role": "Jack Horner (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "9800a3e2b3651b4b5f37524ea3b6d803",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "9800a3e2b3651b4b5f37524ea3b6d803": "dRI#W9xa12Nx_3j?%gt75Sozv}n%OFkCxut7yDWVxFn%"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Da'Vine Joy Randolph",
+                        "Id": "0a15944eefc665c872c6fb71d6a58dda",
+                        "Role": "Mama Luna (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "212b7529cef73eb562dbb1a796ddfa83",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "212b7529cef73eb562dbb1a796ddfa83": "dIFg5xAHKQ^O1i$$xHxZjEsmslEN9^WV$ij[kWs,s:xG"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Anthony Mendez",
+                        "Id": "1616de479941c649fd7ae8334e719c6a",
+                        "Role": "Doctor (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "2969c6332c66fd27851252bd3d59acf9",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "2969c6332c66fd27851252bd3d59acf9": "dbLWklniys%N~Wsmx]x]cFbcM{of.9kC%2%3%Mxuf5xZ"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Kevin McCann",
+                        "Id": "bc1c0104df77d22f18dd585935a79640",
+                        "Role": "Ethical Bug (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "b1be8d1f3216121b1907b815975b086c",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "b1be8d1f3216121b1907b815975b086c": "dFGk]_-p1SpK%3aK_2WUM|R*t6V@9YR+wisA0NkC=?V?"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Bernardo de Paula",
+                        "Id": "2f3f5c74b134e45e36829f8c26599222",
+                        "Role": "Governor / Little Boy's Father / Male Partier (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "972342f1f2b3f09166df07e425298f13",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "972342f1f2b3f09166df07e425298f13": "djHn?MxuXoxu~Wog%h%MoLt7t7WBkWofRikCkWofxuof"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Betsy Sodaro",
+                        "Id": "4e8a1f37d29d3674d60a2b03441bf2d2",
+                        "Role": "Jo Serpent / Additional Baker's Dozen Gang Member (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "b512dba078be4dc70a0002681cb96043",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "b512dba078be4dc70a0002681cb96043": "dfF~5ORj0e%MVst8tSM{9]NG-Vt8x]j[aJoeInt7xuM{"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Artemis Pebdani",
+                        "Id": "d48f32acd406bbe357a6d979c21d495a",
+                        "Role": "Jan Serpent (voice)",
+                        "Type": "Actor",
+                        "PrimaryImageTag": "b826daa3f7ceff0aad0b87d3d29d159f",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "b826daa3f7ceff0aad0b87d3d29d159f": "dMF#dsa|10xbS7V@S5NbKQn~=|WCn+X9t7%3IpxbV@bb"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Joel Crawford",
+                        "Id": "2a2b0f9fec1c175bf539c7702be0c20d",
+                        "Role": "Director",
+                        "Type": "Director",
+                        "PrimaryImageTag": "532ff3e3532cc98d3be29a2e37b1466d",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "532ff3e3532cc98d3be29a2e37b1466d": "dSIqo$~q%$%g+rMwD%oI58E2Djso%zkCxuxtxnRiRixt"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Tommy Swerdlow",
+                        "Id": "a052e53bc290a9541f7ef2118fe15af3",
+                        "Role": "Story",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "0de46b01df6df76407f74b33b6e63d78",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "0de46b01df6df76407f74b33b6e63d78": "duHeB{aypIt7~WfQtSj[kWoeoKWWX9ofniofx]ofxas:"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "USER8 Wheeler",
+                        "Id": "fdb3ca72b3b48206f726a315221b02fb",
+                        "Role": "Story",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "d524f42f315e675e3de682704e585df3",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "d524f42f315e675e3de682704e585df3": "dPE{IfR+1Ot9_4WBb_WY9aWA-AazNMozRPt7ENxuxabb"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Paul Fisher",
+                        "Id": "0ec4d6a9a3ada3316c1b0eb501332520",
+                        "Role": "Screenplay",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "e225de639f6debeb36c279733b2c68df",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "e225de639f6debeb36c279733b2c68df": "dXHLl1_300fQ009Fayofofxuxut7D%ayxuM{IURjt7j["
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Heidi Jo Gilbert",
+                        "Id": "8e4126b6b19ede02e104e3954cea4c00",
+                        "Role": "Head of Story",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Matt Flynn",
+                        "Id": "4cd64d215481ae642abc0f000b434331",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Anthony Holden",
+                        "Id": "69007f8c731bbf232ce97ea21a1a2aaa",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Taylor Meacham",
+                        "Id": "2243e1008e4d66c86d95a2e2ab78503c",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Evon Freeman",
+                        "Id": "8b0eec6c3d2cb89ec50d9fcca5edb56f",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Hanna Kim",
+                        "Id": "83c6e03e3e0b936f5e7fe5c6df4fa9ba",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Bill Riling",
+                        "Id": "ffacc4c0424108a542683e12f0e8496f",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Naz Ghodrati-Azadi",
+                        "Id": "51a1fb32b87bc0ea0d89660992a85b45",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Warren Leonhardt",
+                        "Id": "9fa495f616b5118e3ebf278e2ad0992c",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Marceline Tanguay",
+                        "Id": "bb1e3f44c42c78fa7c29903a0646bee7",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Gary Graham",
+                        "Id": "511fa2b5bea064b164a109a9a5c59899",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Steven A. MacLeod",
+                        "Id": "0455d8291f9d65f1f5e9fdc32c1b609c",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Simon Wells",
+                        "Id": "232a7b10b691961c84879fc685f1aef1",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "b1639b5d6b8a8c6e42c18c85f3fd0ce1",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "b1639b5d6b8a8c6e42c18c85f3fd0ce1": "dRIpb@={9b;4o[niV_JQ0fR*$yWERlShsos.EKWEt7XR"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Aaron Austin",
+                        "Id": "de6257470c95d466f1d5a13e1a3d5d35",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Kaan Kalyon",
+                        "Id": "9fe14734b174a3536d48371844422351",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Chris Mitchell",
+                        "Id": "6d42bbb396cc08c4bc86acfa4c976882",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Jeff Biancalana",
+                        "Id": "e57aaa921d18cf596110cedae03d7a91",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Danny Langston",
+                        "Id": "2ecab0f565862600bff99d9239e994e4",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Lyle Nagy",
+                        "Id": "2f13258cb9b3c8ef882c8642bd77a478",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Cody Cameron",
+                        "Id": "e3036ec340c65c8e1ce287977cff7211",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "653f95119918d49e4fdb6216c667716d",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "653f95119918d49e4fdb6216c667716d": "diKApOof57-p~WtQS~M{?vbHs:t7?vR*xa%2S3t7xuR*"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Michael Lester",
+                        "Id": "020e51c2a6f33a8e023fb7613af8bf88",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "John Puglisi",
+                        "Id": "c9fba9b2714424bd2bd73b0edd3afb31",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Alice Herring",
+                        "Id": "979a496faa65e02680695469eef871b8",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Johane Matte",
+                        "Id": "a3bdfee6b795afeb04985cbc98fd8f1d",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "PrimaryImageTag": "77dd78458ff199adedd58a7eeb129487",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "77dd78458ff199adedd58a7eeb129487": "dOIXEZ8_0}~V~qnNt6Si5Sx]-7M|-pt8M{s:xa%2oJIo"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "David Wolter",
+                        "Id": "4aaf54f56e04412a2e261535ace34a0d",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Colin Jack",
+                        "Id": "95f8431fc1a07dac6af39c39422cdafe",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Anthony Zierhut",
+                        "Id": "c1d649f893d1c62531bcb0c9eff4ac2e",
+                        "Role": "Story Artist",
+                        "Type": "Writer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Mark Swift",
+                        "Id": "965b720bf16e3912224f4f491a4e76d2",
+                        "Role": "Producer",
+                        "Type": "Producer",
+                        "PrimaryImageTag": "cf8a45c2de897c641c16203bd1bcc7d1",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "cf8a45c2de897c641c16203bd1bcc7d1": "dSGbk;Oays%hv|RiM{RjOWVrr;V?XmWYxukCRkR-jbRk"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Chris Meledandri",
+                        "Id": "17ba4ca443df4d673ed14f18a34266b0",
+                        "Role": "Executive Producer",
+                        "Type": "Producer",
+                        "PrimaryImageTag": "3bd69d4ff0b06e58aee9cf45e9cb336e",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "3bd69d4ff0b06e58aee9cf45e9cb336e": "drKdSwxaOrtS~Bt7x^ozo~WBM{ofb^j]S2aex]j?tRoz"
+                            }
+                        }
+                    },
+                    {
+                        "Name": "Heather Lanza",
+                        "Id": "97f83fe8e3683c6791382c0e99d36872",
+                        "Role": "Associate Producer",
+                        "Type": "Producer",
+                        "ImageBlurHashes": {
+                            "Primary": {}
+                        }
+                    },
+                    {
+                        "Name": "Andrew Adamson",
+                        "Id": "595dbe4cb9d59a32b93b70e4fc17519f",
+                        "Role": "Executive Producer",
+                        "Type": "Producer",
+                        "PrimaryImageTag": "611eae97b09c6524f0ca458dc69de848",
+                        "ImageBlurHashes": {
+                            "Primary": {
+                                "611eae97b09c6524f0ca458dc69de848": "diGQzms-0zNaRj$*j[IpbbR*jGs:NHR+s:jbNGjuayof"
+                            }
+                        }
+                    }
+                ],
+                "Studios": [
+                    {
+                        "Name": "DreamWorks Animation",
+                        "Id": "e06730e67f5a2e6712cb6789f424a16d"
+                    }
+                ],
+                "GenreItems": [
+                    {
+                        "Name": "Animation",
+                        "Id": "074229225b7254292f131f9f49f8dcd6"
+                    },
+                    {
+                        "Name": "Adventure",
+                        "Id": "51cec9645b896084d12b259acd05ccb1"
+                    },
+                    {
+                        "Name": "Fantasy",
+                        "Id": "a30dcc65be22eb3c21c03f7c1c7a57d1"
+                    },
+                    {
+                        "Name": "Comedy",
+                        "Id": "08d31605d366d63a7a924f944b4417f1"
+                    },
+                    {
+                        "Name": "Family",
+                        "Id": "ccbd8d9008aab2b5e749e1cc4bc458a4"
+                    }
+                ],
+                "LocalTrailerCount": 0,
+                "SpecialFeatureCount": 0,
+                "DisplayPreferencesId": "dbf7709c41faaa746463d67978eb863d",
+                "Tags": [
+                    "fairy tale",
+                    "sequel",
+                    "talking dog",
+                    "spin off",
+                    "aftercreditsstinger",
+                    "talking cat",
+                    "fear of death",
+                    "grand",
+                    "cheerful",
+                    "shrek cinematic universe"
+                ],
+                "PrimaryImageAspectRatio": 0.6666666666666666,
+                "MediaStreams": [
+                    {
+                        "Codec": "hevc",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "SDR",
+                        "VideoRangeType": "SDR",
+                        "AudioSpatialFormat": "None",
+                        "DisplayTitle": "1080p HEVC SDR",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "BitRate": 7123395,
+                        "BitDepth": 10,
+                        "RefFrames": 1,
+                        "IsDefault": true,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 804,
+                        "Width": 1920,
+                        "AverageFrameRate": 23.976025,
+                        "RealFrameRate": 23.976025,
+                        "Profile": "Main 10",
+                        "Type": "Video",
+                        "AspectRatio": "2.40:1",
+                        "Index": 0,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "PixelFormat": "yuv420p10le",
+                        "Level": 120,
+                        "IsAnamorphic": false
+                    },
+                    {
+                        "Codec": "aac",
+                        "Language": "eng",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "DisplayTitle": "English - AAC - 7.1 - Default",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "ChannelLayout": "7.1",
+                        "BitRate": 643284,
+                        "Channels": 8,
+                        "SampleRate": 48000,
+                        "IsDefault": true,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Profile": "LC",
+                        "Type": "Audio",
+                        "Index": 1,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "aac",
+                        "Language": "eng",
+                        "TimeBase": "1/1000",
+                        "Title": "Commentary",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "DisplayTitle": "Commentary - English - AAC - Stereo",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "ChannelLayout": "stereo",
+                        "BitRate": 65793,
+                        "Channels": 2,
+                        "SampleRate": 48000,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Profile": "HE-AAC",
+                        "Type": "Audio",
+                        "Index": 2,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "eng",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "English - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 3,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "eng",
+                        "TimeBase": "1/1000",
+                        "Title": "Commentary",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Commentary - English - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 4,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "dut",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Dut - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 5,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "fre",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Fre - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 6,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "ger",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Ger - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 7,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "ger",
+                        "TimeBase": "1/1000",
+                        "Title": "Forced",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Forced - Ger - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 8,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    },
+                    {
+                        "Codec": "DVDSUB",
+                        "Language": "ita",
+                        "TimeBase": "1/1000",
+                        "VideoRange": "Unknown",
+                        "VideoRangeType": "Unknown",
+                        "AudioSpatialFormat": "None",
+                        "LocalizedUndefined": "Undefined",
+                        "LocalizedDefault": "Default",
+                        "LocalizedForced": "Forced",
+                        "LocalizedExternal": "External",
+                        "LocalizedHearingImpaired": "Hearing Impaired",
+                        "DisplayTitle": "Italian - DVDSUB",
+                        "IsInterlaced": false,
+                        "IsAVC": false,
+                        "IsDefault": false,
+                        "IsForced": false,
+                        "IsHearingImpaired": false,
+                        "Height": 1080,
+                        "Width": 1920,
+                        "Type": "Subtitle",
+                        "Index": 9,
+                        "IsExternal": false,
+                        "IsTextSubtitleStream": false,
+                        "SupportsExternalStream": false,
+                        "Level": 0
+                    }
+                ],
+                "VideoType": "VideoFile",
+                "ImageTags": {
+                    "Primary": "dfffb4a5dcd481e5a67fdab6ecce90fd",
+                    "Logo": "9882454675596a1e016eb30072f6be7a",
+                    "Thumb": "467b18ec0cdc424b18063cebef1990fd"
+                },
+                "BackdropImageTags": [
+                    "615895829c1a1c11d62b67fef8bff7b9"
+                ],
+                "ImageBlurHashes": {
+                    "Backdrop": {
+                        "615895829c1a1c11d62b67fef8bff7b9": "WlGa|B0kxv%MV[t7?GE3WqxtNHj]ocM|xrkCNHt6xrNHt6kARkoy"
+                    },
+                    "Primary": {
+                        "dfffb4a5dcd481e5a67fdab6ecce90fd": "dREB]F0jtRtQ%2E5xta~57xV$zaeadjXjEV@V[s.M|Na"
+                    },
+                    "Logo": {
+                        "9882454675596a1e016eb30072f6be7a": "HQIhKFV?IT%LE2RpIUxVR.rl%L-:obs:M|%NxtRk"
+                    },
+                    "Thumb": {
+                        "467b18ec0cdc424b18063cebef1990fd": "WlGa|B0kxv%MWCt7?GE3bHxtNHj[obM|xskCNHt6xsNHt5j?Rkt7"
+                    }
+                },
+                "Chapters": [
+                    {
+                        "StartPositionTicks": 0,
+                        "Name": "Chapter 01",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_0.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:42.7428927Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 5224800000,
+                        "Name": "Chapter 02",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_5224800000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:43.2468892Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 7579240000,
+                        "Name": "Chapter 03",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_7579240000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:44.1948827Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 9930750000,
+                        "Name": "Chapter 04",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_9930750000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:44.9308776Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 12801540000,
+                        "Name": "Chapter 05",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_12801540000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:45.9268707Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 17367770000,
+                        "Name": "Chapter 06",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_17367770000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:47.9828566Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 19621270000,
+                        "Name": "Chapter 07",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_19621270000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:48.7028516Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 22350240000,
+                        "Name": "Chapter 08",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_22350240000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:49.370847Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 24221700000,
+                        "Name": "Chapter 09",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_24221700000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:49.8748435Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 26993220000,
+                        "Name": "Chapter 10",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_26993220000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:50.9308362Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 30214350000,
+                        "Name": "Chapter 11",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_30214350000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:51.6148315Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 33804190000,
+                        "Name": "Chapter 12",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_33804190000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:52.126828Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 37166300000,
+                        "Name": "Chapter 13",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_37166300000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:53.138821Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 39250460000,
+                        "Name": "Chapter 14",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_39250460000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:53.5828179Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 41519390000,
+                        "Name": "Chapter 15",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_41519390000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:54.146814Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 44046920000,
+                        "Name": "Chapter 16",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_44046920000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:54.6948103Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 47265550000,
+                        "Name": "Chapter 17",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_47265550000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:55.5908041Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 50047500000,
+                        "Name": "Chapter 18",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_50047500000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:56.1108005Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 52522470000,
+                        "Name": "Chapter 19",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_52522470000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:56.906795Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    },
+                    {
+                        "StartPositionTicks": 56235760000,
+                        "Name": "Chapter 20",
+                        "ImagePath": "/config/metadata/library/38/3821e37d17711278b0e9633539023dd0/chapters/638543728749601935_56235760000.jpg",
+                        "ImageDateModified": "2024-06-19T06:00:57.3787918Z",
+                        "ImageTag": "1d1f4bbe71ac58e293f0f1195152d9f6"
+                    }
+                ],
+                "Trickplay": {},
+                "LocationType": "FileSystem",
+                "MediaType": "Video",
+                "LockedFields": [],
+                "LockData": false,
+                "Width": 1920,
+                "Height": 804
+            }
+        ],
+        "HasCustomDeviceName": false,
+        "PlaylistItemId": "playlistItem0",
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": [
+            "MoveUp",
+            "MoveDown",
+            "MoveLeft",
+            "MoveRight",
+            "PageUp",
+            "PageDown",
+            "PreviousLetter",
+            "NextLetter",
+            "ToggleOsd",
+            "ToggleContextMenu",
+            "Select",
+            "Back",
+            "SendKey",
+            "SendString",
+            "GoHome",
+            "GoToSettings",
+            "VolumeUp",
+            "VolumeDown",
+            "Mute",
+            "Unmute",
+            "ToggleMute",
+            "SetVolume",
+            "SetAudioStreamIndex",
+            "SetSubtitleStreamIndex",
+            "DisplayContent",
+            "GoToSearch",
+            "DisplayMessage",
+            "SetRepeatMode",
+            "SetShuffleQueue",
+            "ChannelUp",
+            "ChannelDown",
+            "PlayMediaSource",
+            "PlayTrailers"
+        ]
+    },
+    {
+        "PlayState": {
+            "CanSeek": false,
+            "IsPaused": false,
+            "IsMuted": false,
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [
+                "Audio",
+                "Video"
+            ],
+            "SupportedCommands": [
+                "MoveUp",
+                "MoveDown",
+                "MoveLeft",
+                "MoveRight",
+                "PageUp",
+                "PageDown",
+                "PreviousLetter",
+                "NextLetter",
+                "ToggleOsd",
+                "ToggleContextMenu",
+                "Select",
+                "Back",
+                "SendKey",
+                "SendString",
+                "GoHome",
+                "GoToSettings",
+                "VolumeUp",
+                "VolumeDown",
+                "Mute",
+                "Unmute",
+                "ToggleMute",
+                "SetVolume",
+                "SetAudioStreamIndex",
+                "SetSubtitleStreamIndex",
+                "DisplayContent",
+                "GoToSearch",
+                "DisplayMessage",
+                "SetRepeatMode",
+                "SetShuffleQueue",
+                "ChannelUp",
+                "ChannelDown",
+                "PlayMediaSource",
+                "PlayTrailers"
+            ],
+            "SupportsMediaControl": true,
+            "SupportsPersistentIdentifier": false,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [
+            "Audio",
+            "Video"
+        ],
+        "Id": "45a3b41ff7534bfcf5bb09771a32f4ea",
+        "UserId": "f5423830012a4d85886ac60d585f0b08",
+        "UserName": "USER7",
+        "Client": "Jellyfin Web",
+        "LastActivityDate": "2024-06-20T22:50:07.0255307Z",
+        "LastPlaybackCheckIn": "2024-06-20T22:50:07.0255308Z",
+        "LastPausedDate": "2024-06-20T22:14:12.0070052Z",
+        "DeviceName": "Safari",
+        "DeviceId": "TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNjA1LjEuMTUgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzE3LjMgU2FmYXJpLzYwNS4xLjE1fDE3MDg0NjYxNzkxNzA1",
+        "ApplicationVersion": "10.9.6",
+        "IsActive": true,
+        "SupportsMediaControl": false,
+        "SupportsRemoteControl": false,
+        "NowPlayingQueue": [
+            {
+                "Id": "a2b57239f0f276438d12194a31c03011",
+                "PlaylistItemId": "playlistItem0"
+            },
+            {
+                "Id": "47ebf0d9238115111c15056f65ff2233",
+                "PlaylistItemId": "playlistItem1"
+            },
+            {
+                "Id": "9b7edd3702798bcfac6af0d89c9ec7fd",
+                "PlaylistItemId": "playlistItem2"
+            },
+            {
+                "Id": "7b13d7b3b60d46d2e0a742f90a265082",
+                "PlaylistItemId": "playlistItem3"
+            },
+            {
+                "Id": "dff3675aead164b9978b7770f8bafaaf",
+                "PlaylistItemId": "playlistItem4"
+            },
+            {
+                "Id": "50ff081943a7920a6793fd8c231b86ab",
+                "PlaylistItemId": "playlistItem5"
+            },
+            {
+                "Id": "d5e214dfa0e944f86084d158574f3af6",
+                "PlaylistItemId": "playlistItem6"
+            },
+            {
+                "Id": "edbb5722a3e2a1a6b4d810007f0dc79d",
+                "PlaylistItemId": "playlistItem7"
+            },
+            {
+                "Id": "a6facbbd00473fdb71a2ed48e79d3c0d",
+                "PlaylistItemId": "playlistItem8"
+            },
+            {
+                "Id": "e8f4cce6e13e5923f89a33fe75d19474",
+                "PlaylistItemId": "playlistItem9"
+            },
+            {
+                "Id": "39e009ee97f3bd04b7e6334dc1da8a44",
+                "PlaylistItemId": "playlistItem10"
+            },
+            {
+                "Id": "458e390f63d8a581c0534086d2618fb6",
+                "PlaylistItemId": "playlistItem11"
+            },
+            {
+                "Id": "d2002b5e708ebc04288fa59a30e4679a",
+                "PlaylistItemId": "playlistItem12"
+            },
+            {
+                "Id": "d76f2118d6cc6fba342b4342bbdb9f95",
+                "PlaylistItemId": "playlistItem13"
+            },
+            {
+                "Id": "e108fbf50fb82020f4300e235cff8693",
+                "PlaylistItemId": "playlistItem14"
+            },
+            {
+                "Id": "90bb4f32c650ba550939948f68b49cf8",
+                "PlaylistItemId": "playlistItem15"
+            },
+            {
+                "Id": "9fb7526e8dbc59881f8b7514af282ba5",
+                "PlaylistItemId": "playlistItem16"
+            },
+            {
+                "Id": "7356b39751a20fe271b721ed634e63f6",
+                "PlaylistItemId": "playlistItem17"
+            },
+            {
+                "Id": "3786a1ef1dc43b1a31e3a7cd766bd25c",
+                "PlaylistItemId": "playlistItem18"
+            },
+            {
+                "Id": "82528713607d3d7b512533815958280e",
+                "PlaylistItemId": "playlistItem19"
+            },
+            {
+                "Id": "d3d4c7bb7ae3eca7982d9397da164cc0",
+                "PlaylistItemId": "playlistItem20"
+            },
+            {
+                "Id": "41c185df6509e97943f48a921480904f",
+                "PlaylistItemId": "playlistItem21"
+            },
+            {
+                "Id": "af86096810c38865fa137970e41af09a",
+                "PlaylistItemId": "playlistItem22"
+            },
+            {
+                "Id": "a605f5c9d38a7aa5717ad95ce7cdfd06",
+                "PlaylistItemId": "playlistItem23"
+            }
+        ],
+        "HasCustomDeviceName": false,
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": [
+            "MoveUp",
+            "MoveDown",
+            "MoveLeft",
+            "MoveRight",
+            "PageUp",
+            "PageDown",
+            "PreviousLetter",
+            "NextLetter",
+            "ToggleOsd",
+            "ToggleContextMenu",
+            "Select",
+            "Back",
+            "SendKey",
+            "SendString",
+            "GoHome",
+            "GoToSettings",
+            "VolumeUp",
+            "VolumeDown",
+            "Mute",
+            "Unmute",
+            "ToggleMute",
+            "SetVolume",
+            "SetAudioStreamIndex",
+            "SetSubtitleStreamIndex",
+            "DisplayContent",
+            "GoToSearch",
+            "DisplayMessage",
+            "SetRepeatMode",
+            "SetShuffleQueue",
+            "ChannelUp",
+            "ChannelDown",
+            "PlayMediaSource",
+            "PlayTrailers"
+        ]
+    },
+    {
+        "PlayState": {
+            "CanSeek": false,
+            "IsPaused": false,
+            "IsMuted": false,
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [
+                "Audio",
+                "Video"
+            ],
+            "SupportedCommands": [
+                "MoveUp",
+                "MoveDown",
+                "MoveLeft",
+                "MoveRight",
+                "PageUp",
+                "PageDown",
+                "PreviousLetter",
+                "NextLetter",
+                "ToggleOsd",
+                "ToggleContextMenu",
+                "Select",
+                "Back",
+                "SendKey",
+                "SendString",
+                "GoHome",
+                "GoToSettings",
+                "VolumeUp",
+                "VolumeDown",
+                "Mute",
+                "Unmute",
+                "ToggleMute",
+                "SetVolume",
+                "SetAudioStreamIndex",
+                "SetSubtitleStreamIndex",
+                "DisplayContent",
+                "GoToSearch",
+                "DisplayMessage",
+                "SetRepeatMode",
+                "SetShuffleQueue",
+                "ChannelUp",
+                "ChannelDown",
+                "PlayMediaSource",
+                "PlayTrailers"
+            ],
+            "SupportsMediaControl": true,
+            "SupportsPersistentIdentifier": false,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [
+            "Audio",
+            "Video"
+        ],
+        "Id": "0f3980bab048878d0973941ee395af64",
+        "UserId": "66c52f6627f3448ca2fcb6ba170b4c43",
+        "UserName": "USER6",
+        "Client": "Jellyfin Web",
+        "LastActivityDate": "2024-06-18T00:41:51.652731Z",
+        "LastPlaybackCheckIn": "0001-01-01T00:00:00.0000000Z",
+        "DeviceName": "Chrome",
+        "DeviceId": "TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyNC4wLjAuMCBTYWZhcmkvNTM3LjM2fDE3MTUxMzgyOTEwOTk1",
+        "ApplicationVersion": "10.9.6",
+        "IsActive": true,
+        "SupportsMediaControl": false,
+        "SupportsRemoteControl": false,
+        "NowPlayingQueue": [
+            {
+                "Id": "ba406f2c89c05fecd7541adb7e3f67b0",
+                "PlaylistItemId": "playlistItem1"
+            }
+        ],
+        "NowPlayingQueueFullItems": [],
+        "HasCustomDeviceName": false,
+        "PlaylistItemId": "playlistItem1",
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": [
+            "MoveUp",
+            "MoveDown",
+            "MoveLeft",
+            "MoveRight",
+            "PageUp",
+            "PageDown",
+            "PreviousLetter",
+            "NextLetter",
+            "ToggleOsd",
+            "ToggleContextMenu",
+            "Select",
+            "Back",
+            "SendKey",
+            "SendString",
+            "GoHome",
+            "GoToSettings",
+            "VolumeUp",
+            "VolumeDown",
+            "Mute",
+            "Unmute",
+            "ToggleMute",
+            "SetVolume",
+            "SetAudioStreamIndex",
+            "SetSubtitleStreamIndex",
+            "DisplayContent",
+            "GoToSearch",
+            "DisplayMessage",
+            "SetRepeatMode",
+            "SetShuffleQueue",
+            "ChannelUp",
+            "ChannelDown",
+            "PlayMediaSource",
+            "PlayTrailers"
+        ]
+    },
+    {
+        "PlayState": {
+            "CanSeek": false,
+            "IsPaused": false,
+            "IsMuted": false,
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [],
+            "SupportedCommands": [],
+            "SupportsMediaControl": false,
+            "SupportsPersistentIdentifier": true,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [],
+        "Id": "98096f030ba9dd62949fd3c5ed772f10",
+        "UserId": "2a0ab48f48974c62bbc43489f652beb8",
+        "UserName": "USER3",
+        "Client": "Jellyseerr",
+        "LastActivityDate": "2024-06-15T16:42:14.103055Z",
+        "LastPlaybackCheckIn": "0001-01-01T00:00:00.0000000Z",
+        "DeviceName": "Jellyseerr",
+        "DeviceId": "Qk9UX292ZXJzZWVycl9Lb3NoZXI=",
+        "ApplicationVersion": "1.9.2",
+        "IsActive": true,
+        "SupportsMediaControl": false,
+        "SupportsRemoteControl": false,
+        "NowPlayingQueue": [],
+        "NowPlayingQueueFullItems": [],
+        "HasCustomDeviceName": false,
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": []
+    },
+    {
+        "PlayState": {
+            "CanSeek": false,
+            "IsPaused": false,
+            "IsMuted": false,
+            "RepeatMode": "RepeatNone",
+            "PlaybackOrder": "Default"
+        },
+        "AdditionalUsers": [],
+        "Capabilities": {
+            "PlayableMediaTypes": [],
+            "SupportedCommands": [],
+            "SupportsMediaControl": false,
+            "SupportsPersistentIdentifier": true,
+            "SupportsContentUploading": false,
+            "SupportsSync": false
+        },
+        "RemoteEndPoint": "192.168.1.1",
+        "PlayableMediaTypes": [],
+        "Id": "380c2183722b791f64251ff3f6744870",
+        "UserId": "ec8dfc1e70a14dc7afcf66acb7c05e03",
+        "UserName": "USER2",
+        "Client": "jfa-go",
+        "LastActivityDate": "2024-06-15T14:20:55.0577454Z",
+        "LastPlaybackCheckIn": "0001-01-01T00:00:00.0000000Z",
+        "DeviceName": "jfa-go",
+        "DeviceId": "jfa-go-0.5.1-46566fb",
+        "ApplicationVersion": "0.5.1",
+        "IsActive": true,
+        "SupportsMediaControl": false,
+        "SupportsRemoteControl": false,
+        "NowPlayingQueue": [],
+        "NowPlayingQueueFullItems": [],
+        "HasCustomDeviceName": false,
+        "ServerId": "8a294b9808ea41938e0cb243318d6608",
+        "SupportedCommands": []
+    }
+]

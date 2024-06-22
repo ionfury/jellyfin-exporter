@@ -8,6 +8,8 @@ vars:
 
 includes:
   local: .taskfiles/local.yaml
+  lint: .taskfiles/lint.yaml
+  test: .taskfiles/test.yaml
 
 tasks:
   default:

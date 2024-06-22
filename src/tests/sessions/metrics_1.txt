@@ -1,0 +1,51 @@
+# HELP jellyfin_sessions Number of jellyfin sessions
+# TYPE jellyfin_sessions gauge
+jellyfin_sessions 6.0
+# HELP jellyfin_session_info Info about current jellyfin sessions.
+# TYPE jellyfin_session_info gauge
+jellyfin_session_info{client="Jellyfin Web",device="Firefox",session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 1.0
+jellyfin_session_info{client="Jellyfin Web",device="Firefox",session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 1.0
+jellyfin_session_info{client="Jellyfin Web",device="Safari",session_id="45a3b41ff7534bfcf5bb09771a32f4ea",user="USER7"} 1.0
+jellyfin_session_info{client="Jellyfin Web",device="Chrome",session_id="0f3980bab048878d0973941ee395af64",user="USER6"} 1.0
+jellyfin_session_info{client="Jellyseerr",device="Jellyseerr",session_id="98096f030ba9dd62949fd3c5ed772f10",user="USER3"} 1.0
+jellyfin_session_info{client="jfa-go",device="jfa-go",session_id="380c2183722b791f64251ff3f6744870",user="USER2"} 1.0
+# HELP jellyfin_session_bitrate The bitrate of the jellyfin session.
+# TYPE jellyfin_session_bitrate gauge
+jellyfin_session_bitrate{session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 6.110418e+06
+jellyfin_session_bitrate{session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 7.832472e+06
+# HELP jellyfin_session_play_state_info Information about the play state of the jellyfin session.
+# TYPE jellyfin_session_play_state_info gauge
+jellyfin_session_play_state_info{muted="True",paused="False",play_method="Transcode",session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 1.0
+jellyfin_session_play_state_info{muted="False",paused="True",play_method="Transcode",session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 1.0
+jellyfin_session_play_state_info{muted="False",paused="False",play_method="Unknown",session_id="45a3b41ff7534bfcf5bb09771a32f4ea",user="USER7"} 1.0
+jellyfin_session_play_state_info{muted="False",paused="False",play_method="Unknown",session_id="0f3980bab048878d0973941ee395af64",user="USER6"} 1.0
+jellyfin_session_play_state_info{muted="False",paused="False",play_method="Unknown",session_id="98096f030ba9dd62949fd3c5ed772f10",user="USER3"} 1.0
+jellyfin_session_play_state_info{muted="False",paused="False",play_method="Unknown",session_id="380c2183722b791f64251ff3f6744870",user="USER2"} 1.0
+# HELP jellyfin_session_play_state_position Information about the play state of the jellyfin session.
+# TYPE jellyfin_session_play_state_position gauge
+jellyfin_session_play_state_position{session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 5.23958498e+09
+jellyfin_session_play_state_position{session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 2.421111145e+010
+jellyfin_session_play_state_position{session_id="45a3b41ff7534bfcf5bb09771a32f4ea",user="USER7"} 0.0
+jellyfin_session_play_state_position{session_id="0f3980bab048878d0973941ee395af64",user="USER6"} 0.0
+jellyfin_session_play_state_position{session_id="98096f030ba9dd62949fd3c5ed772f10",user="USER3"} 0.0
+jellyfin_session_play_state_position{session_id="380c2183722b791f64251ff3f6744870",user="USER2"} 0.0
+# HELP jellyfin_session_now_playing_info Information about the item currently playing on the jellyfin session.
+# TYPE jellyfin_session_now_playing_info gauge
+jellyfin_session_now_playing_info{item_id="e8f4cce6e13e5923f89a33fe75d19474",media_type="Video",name="Episode 10: Giant Frogs/Aboveground",rating="Unknown",session_id="c80788bfac1e58999f565f062f12b0fd",type="Episode",user="USER8"} 1.0
+jellyfin_session_now_playing_info{item_id="3821e37d17711278b0e9633539023dd0",media_type="Video",name="Puss in Boots: The Last Wish",rating="PG",session_id="b7c62e795410cd4f9428e1f39f122acc",type="Movie",user="USER8"} 1.0
+# HELP jellyfin_session_now_playing_run_time Run time of the item currently playing on the jellyfin session.
+# TYPE jellyfin_session_now_playing_run_time gauge
+jellyfin_session_now_playing_run_time{item_id="e8f4cce6e13e5923f89a33fe75d19474",session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 1.5771199999e+010
+jellyfin_session_now_playing_run_time{item_id="3821e37d17711278b0e9633539023dd0",session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 6.141267e+010
+# HELP jellyfin_session_transcode_info Info about transcoding in the jellyfin session.
+# TYPE jellyfin_session_transcode_info gauge
+jellyfin_session_transcode_info{audio_channels="2",audio_codec="aac",container="mp4",height="1080",is_audio_direct="False",is_video_direct="False",session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8",video_codec="h264",width="1920"} 1.0
+jellyfin_session_transcode_info{audio_channels="2",audio_codec="aac",container="mp4",height="804",is_audio_direct="False",is_video_direct="False",session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8",video_codec="h264",width="1920"} 1.0
+# HELP jellyfin_session_transcode_bitrate The transcoding bitrate of the jellyfin session.
+# TYPE jellyfin_session_transcode_bitrate gauge
+jellyfin_session_transcode_bitrate{session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 4.872e+06
+jellyfin_session_transcode_bitrate{session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 4.872e+06
+# HELP jellyfin_session_transcode_completion The transcoding completion percentage of the jellyfin session.
+# TYPE jellyfin_session_transcode_completion gauge
+jellyfin_session_transcode_completion{session_id="c80788bfac1e58999f565f062f12b0fd",user="USER8"} 100.0
+jellyfin_session_transcode_completion{session_id="b7c62e795410cd4f9428e1f39f122acc",user="USER8"} 100.0
