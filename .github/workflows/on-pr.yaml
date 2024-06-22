@@ -6,10 +6,6 @@ on:
       - opened
       - reopened
       - synchronize
-  push:
-    branches-ignore:
-      - main
-      - v*
 
 env:
   python_version: '3.10' # Need quotes for YAML, or this is 3.1
@@ -24,7 +20,19 @@ jobs:
 
       - name: Lint
         uses: ./.github/actions/lint
-        
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Test
+      uses: ./.github/actions/test
+      with:
+        PYTHON_VERSION: ${{ env.python_version }}
+
   canary:
     name: Canary Build
     runs-on: ubuntu-latest
