@@ -59,14 +59,14 @@ jellyfin_user_bitrate_limit{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60f
 jellyfin_user_bitrate_limit{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 5e+06
 # HELP jellyfin_user_last_login Last login timestamp of jellyfin users.
 # TYPE jellyfin_user_last_login gauge
-jellyfin_user_last_login{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 1.718394375e+09
-jellyfin_user_last_login{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 1.718475654e+09
-jellyfin_user_last_login{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 1.718484134e+09
-jellyfin_user_last_login{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 1.715230825e+09
-jellyfin_user_last_login{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 1.717192048e+09
-jellyfin_user_last_login{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 1.715152744e+09
-jellyfin_user_last_login{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 1.718317995e+09
-jellyfin_user_last_login{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 1.718336748e+09
-jellyfin_user_last_login{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 1.714601187e+09
-jellyfin_user_last_login{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 1.713807043e+09
-jellyfin_user_last_login{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 1.713770035e+09
+jellyfin_user_last_login{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 1.0
+jellyfin_user_last_login{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 1.0
+jellyfin_user_last_login{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 1.0
+jellyfin_user_last_login{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 1.0
+jellyfin_user_last_login{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 1.0
+jellyfin_user_last_login{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 1.0
+jellyfin_user_last_login{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 1.0
+jellyfin_user_last_login{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 1.0
+jellyfin_user_last_login{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 1.0
+jellyfin_user_last_login{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 1.0
+jellyfin_user_last_login{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 1.0

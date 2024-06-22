@@ -72,8 +72,11 @@ def test_users_collector(mock_get, mocked_response_file, expected_metrics_file):
     mock_request_api = Mock()
     mock_request_api.return_value = mocked_data
 
+    mock_get_timestamp = Mock()
+    mock_get_timestamp.return_value = 1
+
     registry = CollectorRegistry()
-    collector = JellyfinUsers(mock_request_api, logger.critical)
+    collector = JellyfinUsers(mock_request_api, mock_get_timestamp, logger.critical)
     registry.register(collector)
 
     generated_metrics = generate_latest(registry).decode("utf-8").strip()

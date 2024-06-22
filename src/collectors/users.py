@@ -1,12 +1,12 @@
 import traceback
 from prometheus_client.core import GaugeMetricFamily
-from datetime import datetime
 
 
 class JellyfinUsers(object):
-    def __init__(self, request_api, critical_logger):
+    def __init__(self, request_api, get_timestamp, critical_logger):
         self.request_api = request_api
         self.critical_logger = critical_logger
+        self.get_timestamp = get_timestamp
 
     def collect(self):
         endpoint = "/users"
@@ -155,6 +155,6 @@ class JellyfinUsers(object):
                     user["Id"],
                     user["Name"],
                 ],
-                int(datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%fZ").timestamp()),
+                self.get_timestamp(date),
             )
         return gauge
