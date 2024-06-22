@@ -1,0 +1,72 @@
+# HELP jellyfin_users Number of jellyfin users
+# TYPE jellyfin_users gauge
+jellyfin_users 12.0
+# HELP jellyfin_user_info Info about jellyfin users.
+# TYPE jellyfin_user_info gauge
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="default-user-template",user_id="0c8c9ccf8ca74c27826cbd712f386e56"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 1.0
+jellyfin_user_info{administrator="True",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 1.0
+jellyfin_user_info{administrator="True",disabled="False",hidden="True",subtitle_language_preference="eng",subtitle_mode="Default",user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 1.0
+jellyfin_user_info{administrator="False",disabled="False",hidden="True",subtitle_language_preference="",subtitle_mode="Default",user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 1.0
+# HELP jellyfin_user_invalid_login_attempts Number of invalid login attempts for a jellyfin user.
+# TYPE jellyfin_user_invalid_login_attempts gauge
+jellyfin_user_invalid_login_attempts{user="default-user-template",user_id="0c8c9ccf8ca74c27826cbd712f386e56"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 0.0
+jellyfin_user_invalid_login_attempts{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 0.0
+# HELP jellyfin_user_lockout_login_attempts Number of logins attempts before a jellyfin user is locked out.
+# TYPE jellyfin_user_lockout_login_attempts gauge
+jellyfin_user_lockout_login_attempts{user="default-user-template",user_id="0c8c9ccf8ca74c27826cbd712f386e56"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 6.0
+jellyfin_user_lockout_login_attempts{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 3.0
+jellyfin_user_lockout_login_attempts{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 3.0
+# HELP jellyfin_user_bitrate_limit The maximum bitrate sessions from a jellyfin user are limited to.
+# TYPE jellyfin_user_bitrate_limit gauge
+jellyfin_user_bitrate_limit{user="default-user-template",user_id="0c8c9ccf8ca74c27826cbd712f386e56"} 5e+06
+jellyfin_user_bitrate_limit{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 5e+06
+jellyfin_user_bitrate_limit{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 0.0
+jellyfin_user_bitrate_limit{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 5e+06
+jellyfin_user_bitrate_limit{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 5e+06
+jellyfin_user_bitrate_limit{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 5e+06
+jellyfin_user_bitrate_limit{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 5e+06
+jellyfin_user_bitrate_limit{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 5e+06
+jellyfin_user_bitrate_limit{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 0.0
+jellyfin_user_bitrate_limit{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 5e+06
+jellyfin_user_bitrate_limit{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 5e+06
+jellyfin_user_bitrate_limit{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 5e+06
+# HELP jellyfin_user_last_login Last login timestamp of jellyfin users.
+# TYPE jellyfin_user_last_login gauge
+jellyfin_user_last_login{user="USER1",user_id="26d7aa73f7aa4836a225d7183ff5874e"} 1.0
+jellyfin_user_last_login{user="USER2",user_id="ec8dfc1e70a14dc7afcf66acb7c05e03"} 1.0
+jellyfin_user_last_login{user="USER3",user_id="2a0ab48f48974c62bbc43489f652beb8"} 1.0
+jellyfin_user_last_login{user="USER4",user_id="0a23849eb6fd46e5a5bde70ab9002e51"} 1.0
+jellyfin_user_last_login{user="USER5",user_id="ed52a943c71e466ca7d856418f3dba37"} 1.0
+jellyfin_user_last_login{user="USER6",user_id="66c52f6627f3448ca2fcb6ba170b4c43"} 1.0
+jellyfin_user_last_login{user="USER7",user_id="f5423830012a4d85886ac60d585f0b08"} 1.0
+jellyfin_user_last_login{user="USER8",user_id="c370b2b891d34460831b245cf98fd858"} 1.0
+jellyfin_user_last_login{user="USER9",user_id="17a9bc71761348529fbd938d46a1a82e"} 1.0
+jellyfin_user_last_login{user="USER10",user_id="2a9553cdeb8d4e249c81ba8b8b60fe8d"} 1.0
+jellyfin_user_last_login{user="USER11",user_id="105e428d0d70416f9000dfa1a4bc3b45"} 1.0

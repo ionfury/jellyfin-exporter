@@ -6,7 +6,8 @@ COPY requirements.txt ./requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt && rm -rf requirements.txt
 
-COPY jellyfin_exporter.py ./jellyfin_exporter.py
+COPY src/jellyfin_exporter.py ./jellyfin_exporter.py
+COPY src/collectors ./collectors
 
 CMD ["python", "jellyfin_exporter.py"]
 

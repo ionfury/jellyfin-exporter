@@ -16,6 +16,17 @@ jobs:
       - name: Lint
         uses: ./.github/actions/lint
 
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Test
+      uses: ./.github/actions/test
+      with:
+        PYTHON_VERSION: ${{ env.python_version }}
 
   release:
     runs-on: ubuntu-latest

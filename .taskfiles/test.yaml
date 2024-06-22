@@ -1,0 +1,13 @@
+version: "3"
+
+tasks:
+  run:
+    desc: Runs tests.
+    cmds:
+      - task: requirements
+      - pytest
+  requirements:
+    desc: Installs requirements.
+    silent: true
+    cmds:
+      - python3 -m pip install --no-cache-dir -r requirements.txt
